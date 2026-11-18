@@ -1,0 +1,12 @@
+[project]
+name = "employee-management-system"
+version = "1.0.0"
+description = "A layered console-based employee management application"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
